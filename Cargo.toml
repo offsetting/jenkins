@@ -1,0 +1,11 @@
+[package]
+name = "jenkins"
+description = "Native rust implementation of the hash algorithms from Bob Jenkins."
+license = "CC0-1.0"
+repository = "https://github.com/offsetting/jenkins.git"
+homepage = "https://github.com/offsetting/jenkins.git"
+version = "0.1.0"
+edition = "2021"
+
+[profile.dev]
+overflow-checks = false
