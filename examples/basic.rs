@@ -1,10 +1,3 @@
-# jenkins_hash
-
-Native rust implementation of the hash algorithms from Bob Jenkins.
-
-## Usage
-
-```rust
 use jenkins_hash::lookup2;
 
 fn main() {
@@ -13,4 +6,3 @@ fn main() {
 
   println!("{}", lookup2(&data[..], initial));
 }
-```

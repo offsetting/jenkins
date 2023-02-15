@@ -120,12 +120,12 @@ const START: u32 = 0x9e3779b9;
 ///    return c;
 /// }
 /// ```
-pub fn lookup2(data: &[u8], initval: u32) -> u32 {
+pub fn lookup2(data: &[u8], initial: u32) -> u32 {
   let len = data.len();
 
   let mut a = START;
   let mut b = START;
-  let mut c = initval;
+  let mut c = initial;
 
   let mut i = 0;
 
