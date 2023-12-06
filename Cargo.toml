@@ -6,6 +6,7 @@ repository = "https://github.com/offsetting/jenkins_hash.git"
 homepage = "https://github.com/offsetting/jenkins_hash.git"
 version = "0.1.0"
 edition = "2021"
+keywords = ["no_std", "hash"]
 
 [profile.dev]
 overflow-checks = false
